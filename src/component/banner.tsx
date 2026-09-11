@@ -1,12 +1,12 @@
 const Banner = () => {
     return (
-        <div className="py-25 px-5">
+        <div className="py-20 px-5">
             <div className="container mx-auto flex items-center">
                 <div className="w-[55%]">
-                    <h1 className="text-[60px] font-bold leading-[70px]">Build Your Ideal <span className="bg-gradient-to-r from-[#FF5722] to-[#7C3AED] bg-clip-text text-transparent">Development Stack</span></h1>
+                    <h1 className="text-[60px] font-bold leading-17.5 max-w-138.75">Build Your Ideal <span className="bg-linear-to-r from-[#FF5722] to-[#7C3AED] bg-clip-text text-transparent">Development Stack</span></h1>
 
 
-                    <p className="mt-6 text-[18px] font-light leading-7 text-[#475569] max-w-[570px]">Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next project.</p>
+                    <p className="mt-6 text-[18px] font-light leading-7 text-[#475569] max-w-142.5">Explore frontend, backend, database, and tooling options, compare them side by side, and put together the stack that fits your next project.</p>
 
 
                     <div className="flex gap-3 mt-[53px]">
