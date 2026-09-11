@@ -1,3 +1,5 @@
+import Banner from "./component/banner"
+import Footer from "./component/footer"
 import Header from "./component/header"
 
 function App() {
@@ -5,7 +7,8 @@ function App() {
   return (
     <>
       <Header></Header>
-      
+      <Banner></Banner>
+      <Footer></Footer>
     </>
   )
 }
