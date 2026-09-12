@@ -37,9 +37,9 @@ const TechnologyWraper = ({ technology }: TechnologyWraperProps) => {
 
     return (
         <div>
-            <div className="mt-10 flex gap-8">
-                <div className="w-[75%]">
-                    <div className="grid grid-cols-3 gap-5">
+            <div className="mt-10 flex flex-col sm:flex-row gap-5 sm:gap-8">
+                <div className="sm:w-[75%]">
+                    <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
                         {
                             technologies.map(tech => (
@@ -54,7 +54,7 @@ const TechnologyWraper = ({ technology }: TechnologyWraperProps) => {
                 </div>
 
 
-                <div className="w-[25%]">
+                <div className="sm:w-[25%] text-left">
 
                     <div className="border border-[#F1F5F9] rounded-2xl p-5 sticky top-30">
 

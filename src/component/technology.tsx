@@ -33,13 +33,13 @@ const Technology = ({ technology, handleStack, isAdded }: TechnologyProps) => {
     return (
         <div>
 
-            <div className={`border-3 border-[#F1F5F9] rounded-2xl p-5 flex flex-col h-full justify-between ${isAdded ? 'border-gray-300 border-3' : ''}`}>
+            <div className={`border-3 border-[#F1F5F9] rounded-2xl p-5 flex flex-col h-full justify-between ${isAdded ? 'border-gray-300 border-3' : ''} text-left`}>
 
 
                 <div>
                     <div className="flex justify-between items-center">
                         <img src={technology.icon} alt={technology.name} />
-                        <p className="bg-[#E0F2FE] rounded-4xl text-center text-[#0EA5E9] text-[12px] py-0.5 px-3">{technology.badge}</p>
+                        <p style={{ color: technology.badge_color, backgroundColor: technology.badge_bg }} className={`bg-[${technology.badge_color}] rounded-4xl text-center text-[12px] py-0.5 px-3`}>{technology.badge}</p>
                     </div>
 
 

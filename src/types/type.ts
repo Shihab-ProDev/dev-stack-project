@@ -7,4 +7,6 @@ export interface Itechnology{
     category: string
     difficulty: string
     rating: number
+    badge_color: string
+    badge_bg: string
 }

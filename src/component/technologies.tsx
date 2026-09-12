@@ -16,7 +16,7 @@ const Technologies = () => {
 
 
 
-            <div className="container mx-auto">
+            <div className="container mx-auto text-center sm:text-left">
                 <div className="flex flex-col gap-2">
                     <h2 className="text-[36px] font-bold text-[#0F172A]">Explore the <span className="bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">Technologies</span></h2>
                     <p className="text-[16px] text-[#64748B] font-light">Pick one technology per category to build your ideal stack.</p>

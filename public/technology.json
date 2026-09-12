@@ -7,7 +7,9 @@
     "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
     "category": "Frontend",
     "difficulty": "Beginner-Friendly",
-    "rating": 4.9
+    "rating": 4.9,
+    "badge_color": "#0EA5E9",
+    "badge_bg": "#E0F2FE"
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "description": "A progressive JavaScript framework for building interactive and reactive web interfaces.",
     "category": "Frontend",
     "difficulty": "Beginner-Friendly",
-    "rating": 4.8
+    "rating": 4.8,
+    "badge_color": "#059669",
+    "badge_bg": "#D1FAE5"
   },
   {
     "id": 3,
@@ -27,7 +31,9 @@
     "description": "A modern frontend framework that shifts work from the browser to the build step.",
     "category": "Frontend",
     "difficulty": "Intermediate",
-    "rating": 4.7
+    "rating": 4.7,
+    "badge_color": "#EA580C",
+    "badge_bg": "#FFEDD5"
   },
   {
     "id": 4,
@@ -37,7 +43,9 @@
     "description": "A React framework for building fast, scalable, and production-ready web applications.",
     "category": "Full Stack",
     "difficulty": "Intermediate",
-    "rating": 4.9
+    "rating": 4.9,
+    "badge_color": "#000000",
+    "badge_bg": "#f1f1f1"
   },
   {
     "id": 5,
@@ -47,7 +55,9 @@
     "description": "A JavaScript runtime that allows developers to build fast and scalable server-side applications.",
     "category": "Backend",
     "difficulty": "Intermediate",
-    "rating": 4.8
+    "rating": 4.8,
+    "badge_color": "#059669",
+    "badge_bg": "#D1FAE5"
   },
   {
     "id": 6,
@@ -57,7 +67,9 @@
     "description": "A powerful open-source relational database system known for reliability and advanced features.",
     "category": "Database",
     "difficulty": "Intermediate",
-    "rating": 4.9
+    "rating": 4.9,
+    "badge_color": "#2563EB",
+    "badge_bg": "#DBEAFE"
   },
   {
     "id": 7,
@@ -67,7 +79,9 @@
     "description": "An in-memory data store commonly used for caching, sessions, queues, and real-time applications.",
     "category": "Database",
     "difficulty": "Intermediate",
-    "rating": 4.7
+    "rating": 4.7,
+    "badge_color": "#DC2626",
+    "badge_bg": "#FEE2E2"
   },
   {
     "id": 8,
@@ -77,7 +91,9 @@
     "description": "A versatile programming language used to create dynamic and interactive web applications.",
     "category": "Language",
     "difficulty": "Beginner-Friendly",
-    "rating": 4.9
+    "rating": 4.9,
+    "badge_color": "#D97706",
+    "badge_bg": "#FEF3C7"
   },
   {
     "id": 9,
@@ -87,7 +103,9 @@
     "description": "A strongly typed programming language that builds on JavaScript for scalable applications.",
     "category": "Language",
     "difficulty": "Intermediate",
-    "rating": 4.9
+    "rating": 4.9,
+    "badge_color": "#0284C7",
+    "badge_bg": "#E0F2FE"
   },
   {
     "id": 10,
@@ -97,7 +115,10 @@
     "description": "A widely used object-oriented programming language for enterprise, backend, and Android development.",
     "category": "Language",
     "difficulty": "Intermediate",
-    "rating": 4.8
+    "rating": 4.8,
+    "badge_color": "#0284C7",
+    "badge_bg": "#E0F2FE"
+
   },
   {
     "id": 11,
@@ -107,7 +128,9 @@
     "description": "A utility-first CSS framework for rapidly building modern and responsive user interfaces.",
     "category": "Frontend",
     "difficulty": "Beginner-Friendly",
-    "rating": 4.8
+    "rating": 4.8,
+    "badge_color": "#0891B2",
+    "badge_bg": "#CFFAFE"
   },
   {
     "id": 12,
@@ -117,6 +140,8 @@
     "description": "A platform for packaging applications and their dependencies into portable containers.",
     "category": "DevOps",
     "difficulty": "Intermediate",
-    "rating": 4.8
+    "rating": 4.8,
+    "badge_color": "#0284C7",
+    "badge_bg": "#E0F2FE"
   }
 ]
