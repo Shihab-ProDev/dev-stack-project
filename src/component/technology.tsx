@@ -1,15 +1,18 @@
-import { useState } from "react";
 import type { Itechnology } from "../types/type";
 import { toast } from "react-toastify";
 
-const Technology = ({ technology, handleStack }: { technology: Itechnology, handleCount:number, handleStack:Itechnology}) => {
 
+interface TechnologyProps {
+    technology: Itechnology;
+    handleStack: (technology: Itechnology) => void;
+    isAdded: boolean;
+}
 
-    const [addstack, setAddstack] = useState(0);
+const Technology = ({ technology, handleStack, isAdded }: TechnologyProps) => {
+
 
 
     const handleAddStack = () => {
-        setAddstack(addstack + 1);
         toast.success('Stack Added', {
             position: "top-center",
             autoClose: 5000,
@@ -24,18 +27,18 @@ const Technology = ({ technology, handleStack }: { technology: Itechnology, hand
         
     }
 
-    console.log(addstack)
+
 
 
     return (
         <div>
 
-            <div className={`border-3 border-[#F1F5F9] rounded-2xl p-5 flex flex-col h-full justify-between ${addstack ? 'border-gray-300 border-3' : ''}`}>
+            <div className={`border-3 border-[#F1F5F9] rounded-2xl p-5 flex flex-col h-full justify-between ${isAdded ? 'border-gray-300 border-3' : ''}`}>
 
 
                 <div>
                     <div className="flex justify-between items-center">
-                        <img src={technology.icon} />
+                        <img src={technology.icon} alt={technology.name} />
                         <p className="bg-[#E0F2FE] rounded-4xl text-center text-[#0EA5E9] text-[12px] py-0.5 px-3">{technology.badge}</p>
                     </div>
 
@@ -61,7 +64,7 @@ const Technology = ({ technology, handleStack }: { technology: Itechnology, hand
                         </div>
                     </div>
 
-                    <button onClick={handleAddStack} className={`w-full p-2 bg-[#0A0F1D] mt-4 font-semibold rounded-lg cursor-pointer ${addstack ? `bg-green-300 text-green-700` : 'text-white'}`} disabled={addstack ? true : false}>{addstack ? '✓ Added to Stack' : 'Add to Stack'}</button>
+                    <button onClick={handleAddStack} className={`w-full p-2 mt-4 font-semibold rounded-lg cursor-pointer ${isAdded ? `bg-green-300 text-green-700` : 'bg-[#0A0F1D] text-white'}`} disabled={isAdded}>{isAdded ? '✓ Added to Stack' : 'Add to Stack'}</button>
                 </div>
 
 

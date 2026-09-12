@@ -2,13 +2,13 @@ import { Suspense } from "react";
 import type { Itechnology } from "../types/type";
 import TechnologyWraper from "./technologyWraper";
 
+const technologyPromise = async (): Promise<Itechnology[]> => {
+    const res = await fetch('./technology.json');
+    const data = await res.json();
+    return data
+}
 const Technologies = () => {
 
-    const technologyPromise = async (): Promise<Itechnology[]> => {
-        const res = await fetch('./technology.json');
-        const data = await res.json();
-        return data
-    }
 
 
     return (
