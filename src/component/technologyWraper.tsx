@@ -77,7 +77,7 @@ const TechnologyWraper = ({ technology }: TechnologyWraperProps) => {
                                                 </div>
                                             </div>
                                             <button onClick={() => handleRemoveStack(stackitem)} className="cursor-pointer">
-                                                <img src="/src/assets/Vector.svg" alt="" />
+                                                <img src="/assets/Vector.svg" alt="" />
                                             </button>
                                         </div>
                                     )

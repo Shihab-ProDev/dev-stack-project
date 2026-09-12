@@ -6,7 +6,7 @@ const Footer = () => {
             
             <div className="flex gap-5">
                 <div className="flex flex-col items-center sm:items-start sm:w-[40%]">
-                    <img className="w-40" src="/src/assets/logo-text.png" alt="" />
+                    <img className="w-40" src="/assets/logo-text.png" alt="" />
 
 
                     <p className="text-[14px] text-[#64748B] mt-3 font-light md:max-w-[384px] text-center sm:text-left">Curated tools, technologies, and resources for developers building modern software.</p>

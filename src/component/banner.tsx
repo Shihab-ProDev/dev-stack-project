@@ -17,7 +17,7 @@ const Banner = () => {
 
 
                 <div className="w-full md:w-[45%] flex justify-center items-center">
-                    <img src="/src/assets/banner-stack.png" alt="" />
+                    <img src="/assets/banner-stack.png" alt="" />
                 </div>
             </div>
         </div>

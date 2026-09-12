@@ -6,12 +6,12 @@ const Header = () => {
                 {/* hamburger Icon */}
                 <div className="w-15 block md:hidden">
 
-                <img src="/src/assets/Vector (1).svg" alt="" />
+                <img src="/assets/Vector (1).svg" alt="" />
                 </div>
 
                 {/* logo */}
 
-                <img src="/src/assets/logo-text.png"  className="w-30 md:w-34"/>
+                <img src="/assets/logo-text.png"  className="w-30 md:w-34"/>
 
                 {/* menu items */}
 

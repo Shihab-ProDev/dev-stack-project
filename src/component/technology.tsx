@@ -59,7 +59,7 @@ const Technology = ({ technology, handleStack, isAdded }: TechnologyProps) => {
                         <p className="text-[12px] text-[#64748B]">{technology.difficulty}</p>
 
                         <div className="flex gap-1 items-center">
-                            <img src="/src/assets/star.svg" alt="" />
+                            <img src="/assets/star.svg" alt="" />
                             <p className="text-[12px]">{technology.rating}</p>
                         </div>
                     </div>
