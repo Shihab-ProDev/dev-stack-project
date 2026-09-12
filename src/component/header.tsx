@@ -1,17 +1,17 @@
 const Header = () => {
     return (
-        <div className="border-b border-b-[#F1F5F9] py-6 px-5">
+        <div className="border-b border-b-[#F1F5F9] py-6 px-5 sticky top-0 bg-white z-10">
             <div className="container mx-auto flex justify-between items-center">
 
                 {/* logo */}
 
-                <img src="/src/assets/logo-text.png"  className="w-[136px]"/>
+                <img src="/src/assets/logo-text.png"  className="w-34"/>
 
                 {/* menu items */}
 
                 <ul className="flex gap-[29px] text-[14px]">
-                    <li className="text-[#475569] hover:text-[#DB2777]"><a href="#">Home</a></li>
-                    <li className="text-[#475569] hover:text-[#DB2777]"><a href="#">Technologies</a></li>
+                    <li className="text-[#475569] hover:text-[#DB2777]"><a href="#banner">Home</a></li>
+                    <li className="text-[#475569] hover:text-[#DB2777]"><a href="#technologies">Technologies</a></li>
                     <li className="text-[#475569] hover:text-[#DB2777]"><a href="#">Projects</a></li>
                     <li className="text-[#475569] hover:text-[#DB2777]"><a href="#">About</a></li>
                     <li className="text-[#475569] hover:text-[#DB2777]"><a href="#">Contact</a></li>

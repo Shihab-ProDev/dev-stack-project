@@ -1,6 +1,6 @@
 const Banner = () => {
     return (
-        <div className="py-20 px-5">
+        <div id="banner" className="py-20 px-5">
             <div className="container mx-auto flex items-center">
                 <div className="w-[55%]">
                     <h1 className="text-[60px] font-bold leading-17.5 max-w-138.75">Build Your Ideal <span className="bg-linear-to-r from-[#FF5722] to-[#7C3AED] bg-clip-text text-transparent">Development Stack</span></h1>

@@ -12,7 +12,7 @@ const Technologies = () => {
 
 
     return (
-        <div className="mb-21.75 px-5">
+        <div id="technologies" className="mb-21.75 px-5">
 
 
 
@@ -23,53 +23,10 @@ const Technologies = () => {
                 </div>
 
 
-                <div className="mt-10 flex gap-8">
-                    <div className="w-[75%]">
-                        <Suspense fallback={<p>Loading technologies...</p>}>
-                            <TechnologyWraper technology={technologyPromise()}></TechnologyWraper>
-                        </Suspense>
+                <Suspense fallback={<p>Loading technologies...</p>}>
+                    <TechnologyWraper technology={technologyPromise()}></TechnologyWraper>
+                </Suspense>
 
-                    </div>
-
-
-
-                    <div className="w-[25%]">
-
-
-                        <div className="border border-[#F1F5F9] rounded-2xl p-5">
-                            <h5 className="text-[16px] font-bold">Your Stack</h5>
-                            <p className="text-[14px] font-light text-[#94A3B8] mt-1">2 Technology Selected</p>
-
-                            <div className="mt-4 flex flex-col gap-1.5">
-                                <div className="flex justify-between border border-[#E2E8F0] p-2.5 rounded-lg">
-                                    <div className="flex items-center gap-2">
-                                        <img src="/src/assets/react.png" alt="" />
-                                        <div>
-                                            <p className="text-[14px] font-bold">React</p>
-                                            <p className="text-[10px] font-light">Frontend</p>
-                                        </div>
-                                    </div>
-                                    <img src="/src/assets/Vector.svg" alt="" />
-                                </div>
-
-                                <div className="flex justify-between border border-[#E2E8F0] p-2.5 rounded-lg">
-                                    <div className="flex items-center gap-2">
-                                        <img src="/src/assets/react.png" alt="" />
-                                        <div>
-                                            <p className="text-[14px] font-bold">React</p>
-                                            <p className="text-[10px] font-light">Frontend</p>
-                                        </div>
-                                    </div>
-                                    <img src="/src/assets/Vector.svg" alt="" />
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-
-                </div>
 
             </div>
 

@@ -1,10 +1,36 @@
+import { useState } from "react";
 import type { Itechnology } from "../types/type";
+import { toast } from "react-toastify";
 
-const Technology = ({ technology }: { technology: Itechnology }) => {
+const Technology = ({ technology, handleStack }: { technology: Itechnology, handleCount:number, handleStack:Itechnology}) => {
+
+
+    const [addstack, setAddstack] = useState(0);
+
+
+    const handleAddStack = () => {
+        setAddstack(addstack + 1);
+        toast.success('Stack Added', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: false,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+        });
+        handleStack(technology)
+        
+    }
+
+    console.log(addstack)
+
+
     return (
         <div>
 
-            <div className="border border-[#F1F5F9] rounded-2xl p-5 hover:border-gray-300 flex flex-col h-full justify-between">
+            <div className={`border-3 border-[#F1F5F9] rounded-2xl p-5 flex flex-col h-full justify-between ${addstack ? 'border-gray-300 border-3' : ''}`}>
 
 
                 <div>
@@ -35,7 +61,7 @@ const Technology = ({ technology }: { technology: Itechnology }) => {
                         </div>
                     </div>
 
-                    <button className="w-full p-2 bg-[#0A0F1D] mt-4 rounded-lg text-white">Add to Stack</button>
+                    <button onClick={handleAddStack} className={`w-full p-2 bg-[#0A0F1D] mt-4 font-semibold rounded-lg cursor-pointer ${addstack ? `bg-green-300 text-green-700` : 'text-white'}`} disabled={addstack ? true : false}>{addstack ? '✓ Added to Stack' : 'Add to Stack'}</button>
                 </div>
 
 

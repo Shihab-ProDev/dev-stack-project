@@ -22,8 +22,8 @@ const Footer = () => {
                 <div className="w-[20%]">
                     <p className="text-[14px] uppercase font-bold text-[#0F172A]">Product</p>
                     <ul className="flex flex-col gap-2.5 mt-4">
-                        <li className="text-[#64748B] hover:text-[#DB2777] text-[14px]"><a href="#">Home</a></li>
-                        <li className="text-[#64748B] hover:text-[#DB2777] text-[14px]"><a href="#">Technology</a></li>
+                        <li className="text-[#64748B] hover:text-[#DB2777] text-[14px]"><a href="#banner">Home</a></li>
+                        <li className="text-[#64748B] hover:text-[#DB2777] text-[14px]"><a href="#technologies">Technology</a></li>
                         <li className="text-[#64748B] hover:text-[#DB2777] text-[14px]"><a href="#">Projects</a></li>
                     </ul>
                 </div>
