@@ -39,7 +39,7 @@ const Technology = ({ technology, handleStack, isAdded }: TechnologyProps) => {
                 <div>
                     <div className="flex justify-between items-center">
                         <img src={technology.icon} alt={technology.name} />
-                        <p style={{ color: technology.badge_color, backgroundColor: technology.badge_bg }} className={`bg-[${technology.badge_color}] rounded-4xl text-center text-[12px] py-0.5 px-3`}>{technology.badge}</p>
+                        <p style={{ color: technology.badge_color, backgroundColor: technology.badge_bg }} className="rounded-4xl text-center text-[12px] py-0.5 px-3">{technology.badge}</p>
                     </div>
 
 
