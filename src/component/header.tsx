@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <div className="border-b border-b-[#F1F5F9] py-6 px-5 sticky top-0 bg-white z-10">
+        <div className="border-b border-b-[#F1F5F9] py-4 sm:py-6 px-5 sticky top-0 bg-white z-10">
             <div className="container mx-auto flex justify-between items-center">
 
                 {/* hamburger Icon */}

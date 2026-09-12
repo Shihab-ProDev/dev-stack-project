@@ -37,7 +37,7 @@ const TechnologyWraper = ({ technology }: TechnologyWraperProps) => {
 
     return (
         <div>
-            <div className="mt-10 flex flex-col sm:flex-row gap-5 sm:gap-8">
+            <div className="mt-10 flex flex-col sm:flex-row gap-5 lg:gap-8">
                 <div className="sm:w-[75%]">
                     <div className="grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
@@ -65,7 +65,7 @@ const TechnologyWraper = ({ technology }: TechnologyWraperProps) => {
                             {
                                 selectedStack.length === 0 ?
 
-                                    <div className="border border-[#E2E8F0] rounded-xl text-[#94A3B8] p-4 w-full text-center">Your stack is empty.</div>
+                                    <div className="border border-[#E2E8F0] rounded-xl text-[#94A3B8] p-4 w-full text-center text-[14px]">Your stack is empty.</div>
                                     :
                                     selectedStack.map(stackitem =>
                                         <div key={stackitem.id} className="flex justify-between border border-[#E2E8F0] p-2.5 rounded-lg">

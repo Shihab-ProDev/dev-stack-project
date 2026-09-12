@@ -64,7 +64,7 @@ const Technology = ({ technology, handleStack, isAdded }: TechnologyProps) => {
                         </div>
                     </div>
 
-                    <button onClick={handleAddStack} className={`w-full p-2 mt-4 font-semibold rounded-lg cursor-pointer ${isAdded ? `bg-green-300 text-green-700` : 'bg-[#0A0F1D] text-white'}`} disabled={isAdded}>{isAdded ? '✓ Added to Stack' : 'Add to Stack'}</button>
+                    <button onClick={handleAddStack} className={`text-[14px] w-full p-2 mt-4 font-semibold rounded-lg cursor-pointer ${isAdded ? `bg-green-300 text-green-700` : 'bg-[#0A0F1D] text-white'}`} disabled={isAdded}>{isAdded ? '✓ Added to Stack' : 'Add to Stack'}</button>
                 </div>
 
 
